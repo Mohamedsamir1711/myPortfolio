@@ -8,7 +8,7 @@ const PORTFOLIO_DATA = {
   },
 
   typingPhrases: [
-    'MERN Stack Developer',
+    'MEARN Stack Developer',
     'UI/UX Designer',
     'Software Engineer',
   ],
@@ -48,7 +48,7 @@ const PORTFOLIO_DATA = {
         'Modern professional e-commerce platform with authentication, responsive UI, and scalable structure.',
       github: 'https://github.com/Mohamedsamir1711/TechNest-e-commerce',
       demo: null,
-      tags: ['E-Commerce', 'MERN', 'Auth'],
+      tags: ['E-Commerce', 'MEARN', 'Auth'],
       featured: false,
       image: 'assets/images/technest.png',
       gradient: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%)',
@@ -59,7 +59,7 @@ const PORTFOLIO_DATA = {
       description:
         'Modern travel and tourism platform with elegant UI and immersive browsing experience.',
       github: 'https://github.com/Mohamedsamir1711/TravelBloom',
-      demo: null,
+      demo: 'https://travel-bloom-psi.vercel.app/',
       tags: ['Travel', 'React', 'Design'],
       featured: false,
       image: 'assets/images/travelbloom.png',
@@ -71,7 +71,7 @@ const PORTFOLIO_DATA = {
       description:
         'Modern food delivery landing page with responsive layout, smooth animations, and a polished user interface.',
       github: 'https://github.com/Mohamedsamir1711/Omnifood',
-      demo: null,
+      demo: 'https://omnifood-sigma-brown.vercel.app/',
       tags: ['Landing Page', 'HTML', 'CSS'],
       featured: false,
       image: 'assets/images/omnifood.png',

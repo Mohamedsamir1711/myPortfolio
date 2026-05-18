@@ -66,15 +66,19 @@
 }
 
 .loader__logo {
-  font-family: var(--font-heading);
-  font-size: 3rem;
-  font-weight: 800;
-  background: var(--gradient-text);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
   margin-bottom: var(--space-lg);
   animation: pulse 1.5s ease-in-out infinite;
+}
+
+.loader__logo img {
+  display: block;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
 }
 
 .loader__bar {
