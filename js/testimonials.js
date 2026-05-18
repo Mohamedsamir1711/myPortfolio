@@ -26,9 +26,10 @@
         class="testimonial-card__avatar"
         src="${t.avatar}"
         alt="${t.name}"
-        width="80"
-        height="80"
+        width="96"
+        height="96"
         loading="lazy"
+        decoding="async"
         onerror="this.src='assets/images/avatar-placeholder.svg'"
       >
       <div class="testimonial-card__stars" aria-label="${t.rating} out of 5 stars">

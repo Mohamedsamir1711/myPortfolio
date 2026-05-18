@@ -38,7 +38,7 @@ const PORTFOLIO_DATA = {
       demo: null,
       tags: ['Healthcare', 'React', 'UI/UX'],
       featured: true,
-      image: 'assets/images/projects/pulse-of-life.jpg',
+      image: 'assets/images/pulseoflife.png',
       gradient: 'linear-gradient(135deg, #0ea5e9 0%, #06b6d4 50%, #14b8a6 100%)',
     },
     {
@@ -50,7 +50,7 @@ const PORTFOLIO_DATA = {
       demo: null,
       tags: ['E-Commerce', 'MERN', 'Auth'],
       featured: false,
-      image: 'assets/images/projects/technest.jpg',
+      image: 'assets/images/technest.png',
       gradient: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%)',
     },
     {
@@ -62,8 +62,20 @@ const PORTFOLIO_DATA = {
       demo: null,
       tags: ['Travel', 'React', 'Design'],
       featured: false,
-      image: 'assets/images/projects/travelbloom.jpg',
+      image: 'assets/images/travelbloom.png',
       gradient: 'linear-gradient(135deg, #f59e0b 0%, #ef4444 50%, #ec4899 100%)',
+    },
+    {
+      id: 'omnifood',
+      title: 'Omnifood',
+      description:
+        'Modern food delivery landing page with responsive layout, smooth animations, and a polished user interface.',
+      github: 'https://github.com/Mohamedsamir1711/Omnifood',
+      demo: null,
+      tags: ['Landing Page', 'HTML', 'CSS'],
+      featured: false,
+      image: 'assets/images/omnifood.png',
+      gradient: 'linear-gradient(135deg, #e74c3c 0%, #c0392b 50%, #e67e22 100%)',
     },
   ],
 

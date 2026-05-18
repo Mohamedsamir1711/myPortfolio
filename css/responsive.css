@@ -63,10 +63,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .projects__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .services__grid {
     grid-template-columns: repeat(2, 1fr);
   }

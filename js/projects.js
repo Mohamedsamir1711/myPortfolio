@@ -1,5 +1,5 @@
 /**
- * Projects grid with gradient previews (add images in data.js when ready)
+ * Projects grid — renders cards from PORTFOLIO_DATA
  */
 (function () {
   const grid = document.getElementById('projects-grid');
@@ -13,15 +13,26 @@
       ? `<a href="${project.demo}" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Live Demo</a>`
       : `<button class="btn btn--outline" disabled title="Demo coming soon">Live Demo</button>`;
 
-    card.innerHTML = `
-      <div class="project-card__image-wrap">
-        ${project.featured ? '<span class="project-card__featured-badge">Featured</span>' : ''}
-        <div
+    const imageMarkup = project.image
+      ? `<img
+          src="${project.image}"
+          alt="${project.title} project preview"
+          class="project-card__image"
+          loading="lazy"
+          width="640"
+          height="400"
+        >`
+      : `<div
           class="project-card__image project-card__image--gradient"
           role="img"
           aria-label="${project.title} project preview"
           style="background: ${project.gradient}"
-        ></div>
+        ></div>`;
+
+    card.innerHTML = `
+      <div class="project-card__image-wrap">
+        ${project.featured ? '<span class="project-card__featured-badge">Featured</span>' : ''}
+        ${imageMarkup}
         <div class="project-card__overlay" aria-hidden="true"></div>
       </div>
       <div class="project-card__body">
