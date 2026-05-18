@@ -1,0 +1,93 @@
+/**
+ * Portfolio data — single source of truth
+ */
+const PORTFOLIO_DATA = {
+  images: {
+    profile: 'assets/images/home.png',
+    about: 'assets/images/about.png',
+  },
+
+  typingPhrases: [
+    'MERN Stack Developer',
+    'UI/UX Designer',
+    'Software Engineer',
+  ],
+
+  skills: [
+    { name: 'HTML', level: 95, category: 'frontend' },
+    { name: 'CSS', level: 92, category: 'frontend' },
+    { name: 'JavaScript', level: 90, category: 'frontend' },
+    { name: 'React.js', level: 88, category: 'frontend' },
+    { name: 'Angular', level: 75, category: 'frontend' },
+    { name: 'Node.js', level: 85, category: 'backend' },
+    { name: 'MongoDB', level: 82, category: 'backend' },
+    { name: 'Express.js', level: 84, category: 'backend' },
+    { name: 'Figma', level: 88, category: 'design' },
+    { name: 'Photoshop', level: 78, category: 'design' },
+    { name: 'Python', level: 80, category: 'languages' },
+    { name: 'C++', level: 72, category: 'languages' },
+  ],
+
+  projects: [
+    {
+      id: 'pulse-of-life',
+      title: 'Pulse of Life',
+      description:
+        'A healthcare-related project focused on providing a modern and clean user experience.',
+      github: 'https://github.com/Mohamedsamir1711/Pulse_of_life',
+      demo: null,
+      tags: ['Healthcare', 'React', 'UI/UX'],
+      featured: true,
+      image: 'assets/images/projects/pulse-of-life.jpg',
+      gradient: 'linear-gradient(135deg, #0ea5e9 0%, #06b6d4 50%, #14b8a6 100%)',
+    },
+    {
+      id: 'technest',
+      title: 'TechNest E-Commerce',
+      description:
+        'Modern professional e-commerce platform with authentication, responsive UI, and scalable structure.',
+      github: 'https://github.com/Mohamedsamir1711/TechNest-e-commerce',
+      demo: null,
+      tags: ['E-Commerce', 'MERN', 'Auth'],
+      featured: false,
+      image: 'assets/images/projects/technest.jpg',
+      gradient: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%)',
+    },
+    {
+      id: 'travelbloom',
+      title: 'TravelBloom',
+      description:
+        'Modern travel and tourism platform with elegant UI and immersive browsing experience.',
+      github: 'https://github.com/Mohamedsamir1711/TravelBloom',
+      demo: null,
+      tags: ['Travel', 'React', 'Design'],
+      featured: false,
+      image: 'assets/images/projects/travelbloom.jpg',
+      gradient: 'linear-gradient(135deg, #f59e0b 0%, #ef4444 50%, #ec4899 100%)',
+    },
+  ],
+
+  testimonials: [
+    {
+      name: 'Sarah Mitchell',
+      role: 'Startup Founder',
+      avatar: 'assets/images/testimonials/client-1.jpg',
+      rating: 5,
+      text: 'Professional work, fast delivery, and excellent communication.',
+    },
+    {
+      name: 'Ahmed Hassan',
+      role: 'Product Manager',
+      avatar: 'assets/images/testimonials/client-2.jpg',
+      rating: 5,
+      text: 'Mohammed delivered a stunning portfolio and web app that exceeded our expectations. Highly recommended!',
+    },
+    {
+      name: 'Emily Chen',
+      role: 'Marketing Director',
+      avatar: 'assets/images/testimonials/client-3.jpg',
+      rating: 5,
+      text: 'Outstanding UI/UX skills combined with solid development. A true professional.',
+    },
+  ],
+};

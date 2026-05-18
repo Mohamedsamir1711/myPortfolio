@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" fill="none">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="500" y2="600">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="600" rx="24" fill="url(#abg)"/>
+  <rect x="40" y="40" width="420" height="8" rx="4" fill="url(#accent)" opacity="0.6"/>
+  <rect x="40" y="80" width="280" height="6" rx="3" fill="#334155"/>
+  <rect x="40" y="100" width="200" height="6" rx="3" fill="#334155"/>
+  <circle cx="250" cy="280" r="80" fill="url(#accent)" opacity="0.3"/>
+  <text x="250" y="500" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="16">Add your photo: assets/images/about.jpg</text>
+</svg>
