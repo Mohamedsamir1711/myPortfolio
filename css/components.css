@@ -109,6 +109,27 @@
   height: 20px;
 }
 
+.social-link__behance {
+  display: block;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  background-color: currentColor;
+  -webkit-mask-image: url('../assets/images/behance.png');
+  mask-image: url('../assets/images/behance.png');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  transition: transform var(--transition-fast);
+}
+
+.social-link--behance:hover .social-link__behance {
+  transform: scale(1.08);
+}
+
 .social-link:hover {
   transform: translateY(-3px) scale(1.05);
   color: var(--color-primary);

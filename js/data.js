@@ -42,6 +42,18 @@ const PORTFOLIO_DATA = {
       gradient: 'linear-gradient(135deg, #0ea5e9 0%, #06b6d4 50%, #14b8a6 100%)',
     },
     {
+      id: 'prodify',
+      title: 'Prodify',
+      description:
+        'Full-featured e-commerce platform built with Angular, featuring product browsing, user authentication, and a responsive dashboard.',
+      github: 'https://github.com/Mohamedsamir1711/Prodify',
+      demo: 'https://prodify-pi.vercel.app/',
+      tags: ['E-Commerce', 'Angular', 'TypeScript'],
+      featured: false,
+      image: 'assets/images/Prodify.png',
+      gradient: 'linear-gradient(135deg, #10b981 0%, #059669 50%, #047857 100%)',
+    },
+    {
       id: 'technest',
       title: 'TechNest E-Commerce',
       description:
