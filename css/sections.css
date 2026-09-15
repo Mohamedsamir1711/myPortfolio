@@ -621,6 +621,12 @@
   margin-top: var(--space-xs);
 }
 
+.experience-card__description {
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+  line-height: 1.7;
+}
+
 .experience-card__list {
   display: flex;
   flex-direction: column;
