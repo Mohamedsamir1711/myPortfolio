@@ -8,7 +8,7 @@ const PORTFOLIO_DATA = {
   },
 
   typingPhrases: [
-    'MEARN Stack Developer',
+    'MERN & MEAN Stack Developer',
     'UI/UX Designer',
     'Software Engineer',
   ],
@@ -35,10 +35,10 @@ const PORTFOLIO_DATA = {
       description:
         'A healthcare-related project focused on providing a modern and clean user experience.',
       github: 'https://github.com/Mohamedsamir1711/Pulse_of_life',
-      demo: null,
+      demo: 'https://pulseoflife.vercel.app/',
       tags: ['Healthcare', 'React', 'UI/UX'],
       featured: true,
-      image: 'assets/images/pulseoflife.png',
+      image: 'assets/images/pulseoflife.jpg',
       gradient: 'linear-gradient(135deg, #0ea5e9 0%, #06b6d4 50%, #14b8a6 100%)',
     },
     {
@@ -47,10 +47,10 @@ const PORTFOLIO_DATA = {
       description:
         'Full-featured e-commerce platform built with Angular, featuring product browsing, user authentication, and a responsive dashboard.',
       github: 'https://github.com/Mohamedsamir1711/Prodify',
-      demo: 'https://prodify-pi.vercel.app/',
+      demo: 'https://prodify-store.vercel.app/',
       tags: ['E-Commerce', 'Angular', 'TypeScript'],
       featured: false,
-      image: 'assets/images/Prodify.png',
+      image: 'assets/images/prodify.jpg',
       gradient: 'linear-gradient(135deg, #10b981 0%, #059669 50%, #047857 100%)',
     },
     {
@@ -58,12 +58,25 @@ const PORTFOLIO_DATA = {
       title: 'TechNest E-Commerce',
       description:
         'Modern professional e-commerce platform with authentication, responsive UI, and scalable structure.',
-      github: 'https://github.com/Mohamedsamir1711/TechNest-e-commerce',
-      demo: null,
-      tags: ['E-Commerce', 'MEARN', 'Auth'],
+      github: 'https://github.com/Mohamedsamir1711/TechNest',
+      demo: 'https://technest-orpin.vercel.app/',
+      tags: ['E-Commerce', 'MERN & MEAN', 'Auth'],
       featured: false,
-      image: 'assets/images/technest.png',
+      image: 'assets/images/technest.jpg',
       gradient: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%)',
+    },
+    {
+      id: 'integral-hub',
+      title: 'Integral Hub',
+      description:
+        'Smart home mobile application UI/UX design in Figma with 10+ screens for real-time device control, monitoring, and settings.',
+      github: null,
+      figma: 'https://www.figma.com/design/Es74X1Dua1jj9iCekJOzfq/Integral-Hub?node-id=429-751&t=LJRbaJ9iYvPTMaYB-1',
+      demo: null,
+      tags: ['UI/UX Design', 'Figma', 'Smart Home'],
+      featured: false,
+      image: 'assets/images/integralhub.jpg',
+      gradient: 'linear-gradient(135deg, #3b82f6 0%, #6366f1 50%, #8b5cf6 100%)',
     },
     {
       id: 'travelbloom',
