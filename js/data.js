@@ -36,7 +36,7 @@ const PORTFOLIO_DATA = {
         'A healthcare-related project focused on providing a modern and clean user experience.',
       github: 'https://github.com/Mohamedsamir1711/Pulse_of_life',
       demo: 'https://pulseoflife.vercel.app/',
-      tags: ['Healthcare', 'React', 'Django', 'UI/UX'],
+      tags: ['Healthcare', 'Django', 'UI/UX'],
       featured: true,
       image: 'assets/images/pulseoflife.jpg',
       gradient: 'linear-gradient(135deg, #0ea5e9 0%, #06b6d4 50%, #14b8a6 100%)',
