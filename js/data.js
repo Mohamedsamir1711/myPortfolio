@@ -85,7 +85,7 @@ const PORTFOLIO_DATA = {
         'Modern travel and tourism platform with elegant UI and immersive browsing experience.',
       github: 'https://github.com/Mohamedsamir1711/TravelBloom',
       demo: 'https://travel-bloom-psi.vercel.app/',
-      tags: ['Bootstrap', 'React', 'Design'],
+      tags: ['Bootstrap', 'UI', 'Design'],
       featured: false,
       image: 'assets/images/travelbloom.jpg',
       gradient: 'linear-gradient(135deg, #f59e0b 0%, #ef4444 50%, #ec4899 100%)',
